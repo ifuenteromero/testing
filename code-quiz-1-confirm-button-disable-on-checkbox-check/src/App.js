@@ -19,10 +19,12 @@ function App() {
         Button
       </button>
       <input 
+        id='disable-button-checkbox'
         type='checkbox' 
         style={{ width: '100px '}}
         onChange={ handleChange }
       />
+      <label htmlFor='disable-button-checkbox'>Disable button</label>
     </div>
   );
 }
